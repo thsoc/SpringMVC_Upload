@@ -14,8 +14,8 @@ import org.springframework.web.multipart.MultipartFile;
 @RequestMapping("/upload")
 public class UpLoadController {
 	
-	@RequestMapping(value="toUploadControPage")
-	public String toUploadControPage() {
+	@RequestMapping(value="toUploadPage")
+	public String toUploadPage() {
 		return "/ImgUploadTest";
 	}
 	
